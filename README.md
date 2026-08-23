@@ -74,3 +74,6 @@ not_cyberbullying, ethnicity, gender, religion, age, and other_cyberbullying.
 - We can add stopword removal and lemmatization to improve text preprocessing.
 - We can handle any class imbalance using SMOTE if needed.
 - We can expand the dataset with more recent tweets to improve generalization.
+
+### How to run
+Open the folder, In terminal run: streamlit run app.py
