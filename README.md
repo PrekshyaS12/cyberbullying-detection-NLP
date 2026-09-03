@@ -35,6 +35,7 @@ not_cyberbullying, ethnicity, gender, religion, age, and other_cyberbullying.
 - Cleaned raw tweet text by removing URLs, mentions, hashtags, and punctuation.
 - Converted text into numerical features using TF-IDF Vectorizer (5,000 features).
 - Trained 3 classification models individually and compared their accuracy.
+- handled class imbalance using SMOTE if needed.
 - Deployed the best model as a live web application using Streamlit.
 
 ### What We Observed During EDA
@@ -72,7 +73,6 @@ not_cyberbullying, ethnicity, gender, religion, age, and other_cyberbullying.
 ### Future Improvements
 - We can try deep learning models like LSTM or BERT for better contextual understanding.
 - We can add stopword removal and lemmatization to improve text preprocessing.
-- We can handle any class imbalance using SMOTE if needed.
 - We can expand the dataset with more recent tweets to improve generalization.
 
 ### How to run
